@@ -1,0 +1,78 @@
+.table-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
+  margin: 1em auto 0.625em;
+  max-height: 1000px; /* Fallback for browsers that don't support vh units */
+  max-height: 85vh;
+  overflow: hidden;
+  padding: 1.25em 0.625em 2.5em;
+  width: 85%; /* Fallback for browsers that don't support vw units */
+  width: 85vw;
+}
+
+.container {
+padding-top: 2%;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.table-scroll {
+  margin: 0 auto; /* Center element with no top or bottom margins */
+  overflow: auto; /* Turn on the scrollbars if the table is larger than this element */
+  scrollbar-arrow-color: #fff; /* IE 6+ scroll styles */
+  scrollbar-face-color: #00447c;
+  scrollbar-shadow-color: #333;
+  scrollbar-highlight-color: #000;
+  scrollbar-darkshadow-color: #000;
+  scrollbar-track-color: #80a2be; /* Last IE 6+ scroll styles */
+  scrollbar-color: #00447c #80a2be; /* Firefox 64+ */
+  scrollbar-width: thin; /* Firefox 64+ */
+  width: 100%;
+}
+
+.table-title,
+.table-head {
+  font-family: Lato, Oxygen, "Open Sans", Montserrat, "PT Sans", Verdana, Arial,
+    sans-serif;
+}
+
+.table-title {
+  color: white;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0 0 0 0.525em; /* Sets all margins to 0 except for the left margin */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.table-wrapper {
+  height: 30em; /* Fallback for browsers w/o vh support */
+  margin: 0 auto;
+  min-height: 7em; /* Minimum height has the table header and footer and 1 row visible */
+  width: 98%;
+}
+
+.sticky-table {
+  border: 2px solid #bcbec0;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+.bg-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png') center center no-repeat;
+    background-size: cover;
+
+
+  }
